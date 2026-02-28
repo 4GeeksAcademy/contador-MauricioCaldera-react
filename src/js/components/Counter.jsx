@@ -8,17 +8,16 @@ function Counter(props) {
           <i className="fa-regular fa-clock"></i>
         </div>
         <div className="six bg-secondary rounded mx-1 p-3 fs-1">
-          {props.digitSix} {/* Antes era digitsix */}
+          {props.digitSix}
         </div>
         <div className="five bg-secondary rounded mx-1 p-3 fs-1">
-          {props.digitFive} {/* Antes era digitfive */}
+          {props.digitFive}
         </div>
         <div className="four bg-secondary rounded mx-1 p-3 fs-1">
           {props.digitFour}
         </div>
         <div className="tree bg-secondary rounded mx-1 p-3 fs-1">
           {props.digitThree}{" "}
-          {/* Cambié digittree a digitThree para que coincida */}
         </div>
         <div className="two bg-secondary rounded mx-1 p-3 fs-1">
           {props.digitTwo}
